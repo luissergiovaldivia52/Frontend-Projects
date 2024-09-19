@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import PageContent from "./Component/PageContent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +11,7 @@ function App() {
     <>
       <div>
         <main>
-          <p className="read-the-docs">Hola Mundo</p>
+          <PageContent />
         </main>
       </div>
     </>
