@@ -1,5 +1,7 @@
 # Frontend-Projects
 
+This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
+
 ## Single Page Cv
 
 Create a single page HTML CV to showcase you care history
