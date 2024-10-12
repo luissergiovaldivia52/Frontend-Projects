@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./componts/Footer/footer";
 import MainContent from "./componts/Main/MainContent";
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
         <main>
           <MainContent />
         </main>
-        <footer></footer>
+        <footer>
+          <Footer />{" "}
+        </footer>
       </div>
     </>
   );
