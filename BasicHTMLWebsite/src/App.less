@@ -1,0 +1,232 @@
+.grid-container {
+  display: flex;
+
+  flex-direction: column;
+  //justify-content: center;
+  width: 1000px;
+  //height: 650px;
+  height: auto;
+  border: 2px solid black; /* Border del rectangulo */
+  background-color: white; /*Color de fondo */
+
+  //min-height: 100vh;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(7, 100fr);
+  grid-template-rows: repeat(2, 50px);
+  gap: 1px;
+
+  li {
+    justify-content: flex-start;
+    align-content: center;
+
+    text-align: center;
+    font-size: 15px;
+
+    list-style: none;
+
+    // .btn-catergoria {
+    //   color: #ffffff;
+
+    //   &:hover {
+    //     border: 1px solid rgba(255, 255, 0.4);
+    //   }
+    // }
+  }
+
+  .item1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+  .item2 {
+    grid-area: 1 / 4 / span 1 / span 1;
+  }
+
+  .item3 {
+    grid-area: 1 / 5 / span 1 / span 1;
+  }
+  .item4 {
+    grid-area: 1 / 6 / span 1 / span 1;
+  }
+  .item5 {
+    grid-area: 1 / 7 / span 1 / span 1;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .column1,
+  .column2,
+  .column3 {
+    display: flex;
+    //justify-content: center;
+    // width: 1000px;
+    width: 100%;
+    height: 150px;
+  }
+  .column1 {
+    flex-direction: column;
+
+    align-items: center;
+    // border: 2px solid green;
+  }
+  .column2 {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    // justify-content: space-around;
+    //align-items: flex-start;
+
+    // align-items: center;
+    // border: 2px solid red;
+
+    .col2-row2 {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      //width: 300px;
+      width: 100%;
+
+      //height: 150px;
+      height: auto;
+      border: 2px solid black;
+      .work-experience {
+        display: flex;
+        flex-direction: column;
+        //align-items: start;
+        //width: 300px;
+        width: 85%;
+        //height: 150px;
+        height: auto;
+        border: 2px solid black;
+        //border: 1px solid #ccc;
+        padding: 20px;
+        // margin-bottom: 20px;
+
+        .col2-row2-col1-row1,
+        .col2-row2-col1-row2,
+        .col2-row2-col1-row3,
+        .col2-row2-col1-row4 {
+          display: flex;
+          //padding: 1px;
+        }
+
+        .col2-row2-col1-row4 {
+          //  display: flex;
+
+          //padding: 10px;
+          span {
+            color: blue;
+            //  padding: 10px;
+          }
+        }
+      }
+
+      .open-source {
+        span {
+          color: blue;
+        }
+      }
+    }
+    .col2-row1 {
+      display: flex;
+      flex-direction: column;
+      //align-items: start;
+      //width: 300px;
+      width: 100%;
+      //height: 150px;
+      height: auto;
+      border: 1px solid black;
+      //margin: auto;
+
+      // .col2-row1-col1 {
+      //   display: flex;
+      //   flex-direction: column;
+      //   justify-content: space-around;
+      //   //padding: 10px;
+      //   width: 100%;
+      //   // height: auto;
+      //   height: 100%;
+
+      //   border-top: 2px solid black;
+      // }
+
+      .project {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        //width: 300px;
+        width: 100%;
+        //height: 150px;
+        height: auto;
+        border: 1px solid black;
+        .project-project {
+          padding: 1rem;
+        }
+
+        .project-calculator,
+        .project-quiz,
+        .project-timer {
+          display: flex;
+          //flex-direction: column;
+          align-items: start;
+          //width: 300px;
+          width: 100%;
+          //height: 150px;
+          height: auto;
+          border: 1px solid black;
+          //padding: 5px;
+          span {
+            padding: 5px;
+            margin: 5px;
+          }
+        }
+        // .project-timer {
+        //   span {
+        //     color: blue;
+        //   }
+        // }
+      }
+      /*dividemos el row en dos 
+      dentro de este row lo llamamos column y centramos arriba al medio
+      con alih-item , debera ocupar todo el heigh
+      el paddin es para dearle un margen  */
+      .product {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        // justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+      }
+    }
+
+    .col2-row3 {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      //width: 300px;
+      width: 100%;
+      //height: 150px;
+      height: auto;
+      border: 2px solid black;
+    }
+  }
+
+  .column3 {
+    flex-direction: column;
+
+    align-items: center;
+    border: 2px solid orange;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 100px;
+  border: 2px solid blue;
+}
