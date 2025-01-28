@@ -1,6 +1,4 @@
 .grid-container {
-  display: flex;
-  flex-direction: column;
   width: 1000px;
   height: auto;
   border: 2px solid black;
@@ -8,48 +6,58 @@
   background-color: white;
   /*Color de fondo */
 }
-.row {
-  display: grid;
-  grid-template-columns: repeat(7, 100fr);
-  grid-template-rows: repeat(2, 50px);
-  gap: 1px;
+/* Header */
+.navbar {
+  height: 50px;
+  position: relative;
 }
-.row li {
-  justify-content: flex-start;
-  align-content: center;
-  text-align: center;
-  font-size: 15px;
-  list-style: none;
+.navbar a {
+  color: #222;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 20px 20px;
 }
-.row .item1 {
-  grid-area: 1 / 1 / span 1 / span 1;
+.navbar .div1 {
+  position: absolute;
+  left: 0;
 }
-.row .item2 {
-  grid-area: 1 / 4 / span 1 / span 1;
+.navbar .div2 {
+  position: absolute;
+  right: 0;
 }
-.row .item3 {
-  grid-area: 1 / 5 / span 1 / span 1;
+.navbar div {
+  margin: 0 auto;
 }
-.row .item4 {
-  grid-area: 1 / 6 / span 1 / span 1;
+/*titulo */
+.titulo {
+  position: relative;
+  height: 300px;
 }
-.row .item5 {
-  grid-area: 1 / 7 / span 1 / span 1;
+.titulo h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 50px;
 }
+.titulo p {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  font-size: 20px;
+  color: #999;
+}
+/*  MainContent  */
 .container {
   display: flex;
   flex-direction: column;
 }
-.container .column1,
 .container .column2,
 .container .column3 {
   display: flex;
   width: 100%;
-  height: 150px;
-}
-.container .column1 {
-  flex-direction: column;
-  align-items: center;
+  height: 300px;
 }
 .container .column2 {
   display: flex;

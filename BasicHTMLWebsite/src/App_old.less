@@ -1,118 +1,72 @@
 .grid-container {
-  // display: flex;
-
-  // flex-direction: column;
-  //justify-content: center;
-  width: 1000px;
-  //height: 650px;
+  text-align: center;
+  margin: 0px 100px;
   height: auto;
   border: 2px solid black; /* Border del rectangulo */
   background-color: white; /*Color de fondo */
-
-  //min-height: 100vh;
 }
 
-/* Header */
+.row {
+  display: grid;
+  grid-template-columns: repeat(7, 100fr);
+  grid-template-rows: repeat(2, 50px);
+  gap: 1px;
 
-.navbar {
-  height: 50px;
-  position: relative;
-  a {
-    //  font-family: "Gloria Hallelujah", cursive;
-    color: #222;
-    font-size: 20px;
-    line-height: 50px;
-    //font-weight: 600; /* Esto es para negritas */
-    padding: 20px 20px;
+  li {
+    justify-content: flex-start;
+    align-content: center;
+
+    text-align: center;
+    font-size: 15px;
+
+    list-style: none;
+
+    // .btn-catergoria {
+    //   color: #ffffff;
+
+    //   &:hover {
+    //     border: 1px solid rgba(255, 255, 0.4);
+    //   }
+    // }
   }
-  .div1 {
-    position: absolute;
-    left: 0;
+
+  .item1 {
+    grid-area: 1 / 1 / span 1 / span 1;
   }
-  .div2 {
-    position: absolute;
-    right: 0;
+  .item2 {
+    grid-area: 1 / 4 / span 1 / span 1;
   }
 
-  div {
-    // width: 720px;
-    margin: 0 auto;
+  .item3 {
+    grid-area: 1 / 5 / span 1 / span 1;
   }
-}
-
-/*titulo */
-
-.titulo {
-  position: relative;
-  // width: 100%;
-  height: 300px;
-  h1 {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    margin: 0;
-    padding-bottom: 20px;
-
-    font-size: 50px;
+  .item4 {
+    grid-area: 1 / 6 / span 1 / span 1;
   }
-  p {
-    position: absolute;
-    top: 60%;
-    left: 35%;
-
-    font-size: 20px;
-    color: #999;
+  .item5 {
+    grid-area: 1 / 7 / span 1 / span 1;
   }
 }
 
-/*  MainContent  */
 .container {
   display: flex;
   flex-direction: column;
 
-  // .column1 {
-  //   // width: 100%;
-  //   height: 300px;
-
-  //   // div {
-  //   //   width: 460px;
-  //   //   margin: 0 auto;
-  //   //   line-height: 50px;
-  //   //   // height: 50px;
-  //   // }
-  //   .h1 {
-  //     width: 460px;
-  //     margin: 0 auto;
-  //     line-height: 50px;
-  //     // height: 50px;
-  //   }
-  //   h1 {
-  //     font-size: 50px;
-  //     //padding: 10px;
-  //     line-height: 50px;
-  //   }
-  //   .p {
-  //     width: 310px;
-  //     margin: 0 auto;
-  //     line-height: 50px;
-  //     // height: 50px;
-  //   }
-  //   p {
-  //     font-size: 18px;
-  //     color: #999;
-  //     //margin: 10px;
-  //     line-height: 50px;
-  //   }
-  // }
+  .column1,
   .column2,
   .column3 {
     display: flex;
     //justify-content: center;
     // width: 1000px;
     width: 100%;
-    height: 300px;
+    height: 150px;
   }
+  .column1 {
+    flex-direction: column;
 
+    align-items: center;
+    // border: 2px solid green;
+  }
   .column2 {
     display: flex;
     height: auto;
