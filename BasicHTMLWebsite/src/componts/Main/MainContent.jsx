@@ -5,8 +5,14 @@ export default function MainContent() {
     <div className="container ">
       <div className="column1">
         {/*Frondend Developer */}
-        <h1>Frontend Developer</h1>
-        <p>HTML only with proper layout, no styling</p>
+
+        {/* <div className="h1">
+          {" "}
+          <h1>Frontend Developer</h1>
+        </div>
+        <div className="p">
+          <p>html only with proper layout, no styling</p>
+        </div> */}
       </div>
       <div className="column2">
         {" "}

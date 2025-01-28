@@ -3,7 +3,12 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/gloriahallelujah/v21/LYjYdHv3kUk9BMV96EIswT9DIbW-MLSy.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/gloriahallelujah/v22/LYjYdHv3kUk9BMV96EIswT9DIbW-MLSy.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   display: flex;
@@ -22,4 +27,7 @@ h5,
 h6 {
   font-family: "Gloria Hallelujah", cursive;
   color: #222;
+}
+a {
+  text-decoration: none;
 }
