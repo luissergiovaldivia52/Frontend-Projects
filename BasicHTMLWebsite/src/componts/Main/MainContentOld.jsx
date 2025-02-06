@@ -3,30 +3,42 @@ import React from "react";
 export default function MainContent() {
   return (
     <div className="container ">
+      {/* <div className="column1"> */}
       {/*Frondend Developer */}
 
+      {/* </div> */}
       <div className="column2">
         {" "}
         <div className="col2-row1">
           {" "}
-          {/* <div className="project"> */}
-          {/*Project */}
-          <h3 className="h3-titulo">Project</h3>
-          <p> HTML Only Portafolio </p>
-          <hr />
-          <p>Calculator </p>
-          <hr />
-          <p>Quiz App</p>
-          <hr />
-          <p>CountDown Time</p>
-          <hr />
-          <p className="prueba">Product Upcoming Page</p>
-          {/*
-      </div> */}
-          {/* <div className="product">
-        {" "}
-        <span>Product Upcoming Page</span>
-      </div> */}
+          {/* <div className="col2-row1-col"> */}{" "}
+          <div className="project">
+          <div className="project">
+            {" "}
+            {/*Project */}
+            {/* <div className="project-project">
+              <h3>Project</h3>
+
+              <span>HTML Only Portafolio</span>
+            </div> */}
+            {/* <div className="project-calculator"> */}
+            {/* <span>Calculator</span> */}
+            {/* </div> */}
+            {/* <div className="project-quiz"> */} {/* <span>Quiz App</span> */}
+            {/* </div> */}
+            {/* <div className="project-timer"> */}
+            {/* <span>CountDown Time</span> */}
+            {/* </div> */}
+            <h3 class="titulo">Project</h3>
+            <p> HTML Only Portafolio </p>
+            <p>Calculator </p>
+            <p>Quiz App</p>
+            <p>CountDown Time</p>
+          </div>
+          <div className="product">
+            {" "}
+            <span>Product Upcoming Page</span>
+          </div>
         </div>
         {/*Work Experience */}
         <div className="col2-row2">

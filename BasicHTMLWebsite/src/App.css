@@ -7,6 +7,7 @@
   /*Color de fondo */
 }
 /* Header */
+/*Menu */
 .navbar {
   height: 50px;
   position: relative;
@@ -48,10 +49,11 @@
   font-size: 20px;
   color: #999;
 }
-/*  MainContent  */
+/* MainContent */
 .container {
   display: flex;
   flex-direction: column;
+  border-top: 2px solid black;
 }
 .container .column2,
 .container .column3 {
@@ -60,9 +62,42 @@
   height: 300px;
 }
 .container .column2 {
-  display: flex;
   height: auto;
-  flex-direction: row;
+}
+.container .column2 .col2-row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  border-right: 2px solid black;
+  /*dividemos el row en dos
+dentro de este row lo llamamos column y centramos arriba al medio
+con alih-item , debera ocupar todo el heigh
+el paddin es para dearle un margen */
+}
+.container .column2 .col2-row1 .h3-titulo {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.container .column2 .col2-row1 p {
+  margin-left: 20px;
+}
+.container .column2 .col2-row1 .prueba {
+  margin-bottom: 100px;
+}
+.container .column2 .col2-row1 hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 10px 0;
+}
+.container .column2 .col2-row1 .product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  padding: 1rem;
 }
 .container .column2 .col2-row2 {
   display: flex;
@@ -70,14 +105,13 @@
   align-items: start;
   width: 100%;
   height: auto;
-  border: 2px solid black;
+  border-right: 2px solid black;
 }
 .container .column2 .col2-row2 .work-experience {
   display: flex;
   flex-direction: column;
   width: 85%;
   height: auto;
-  border: 2px solid black;
   padding: 20px;
 }
 .container .column2 .col2-row2 .work-experience .col2-row2-col1-row1,
@@ -92,67 +126,23 @@
 .container .column2 .col2-row2 .open-source span {
   color: blue;
 }
-.container .column2 .col2-row1 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  border: 1px solid black;
-  /*dividemos el row en dos 
-      dentro de este row lo llamamos column y centramos arriba al medio
-      con alih-item , debera ocupar todo el heigh
-      el paddin es para dearle un margen  */
-}
-.container .column2 .col2-row1 .project {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  width: 100%;
-  height: auto;
-  border: 1px solid black;
-}
-.container .column2 .col2-row1 .project .project-project {
-  padding: 1rem;
-}
-.container .column2 .col2-row1 .project .project-calculator,
-.container .column2 .col2-row1 .project .project-quiz,
-.container .column2 .col2-row1 .project .project-timer {
-  display: flex;
-  align-items: start;
-  width: 100%;
-  height: auto;
-  border: 1px solid black;
-}
-.container .column2 .col2-row1 .project .project-calculator span,
-.container .column2 .col2-row1 .project .project-quiz span,
-.container .column2 .col2-row1 .project .project-timer span {
-  padding: 5px;
-  margin: 5px;
-}
-.container .column2 .col2-row1 .product {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  align-items: flex-start;
-  padding: 1rem;
-}
 .container .column2 .col2-row3 {
   display: flex;
   flex-direction: column;
   align-items: start;
   width: 100%;
   height: auto;
-  border: 2px solid black;
 }
 .container .column3 {
   flex-direction: column;
   align-items: center;
-  border: 2px solid orange;
+  border-top: 2px solid black;
 }
 .footer {
   display: flex;
   justify-content: center;
   width: 1000px;
   height: 100px;
-  border: 2px solid blue;
+  border-top: 2px solid black;
+  /*eliminar este border */
 }
