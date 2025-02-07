@@ -21,53 +21,34 @@ export default function MainContent() {
           <p>CountDown Time</p>
           <hr />
           <p className="prueba">Product Upcoming Page</p>
-          {/*
-      </div> */}
-          {/* <div className="product">
-        {" "}
-        <span>Product Upcoming Page</span>
-      </div> */}
         </div>
         {/*Work Experience */}
         <div className="col2-row2">
-          <div className="work-experience">
-            <div className="col2-row2-col1-row1">
-              {" "}
-              <h3>Work Experience</h3>
-            </div>
-            <div className="col2-row2-col1-row2">
-              <h4>roadmap.sh</h4>
-            </div>
-            <div className="col2-row2-col1-row3">
-              <p>Solve all the frontend project </p>
-            </div>
-            <div className="col2-row2-col1-row4">
-              {" "}
-              <span className="visit">Visit my Profile</span>
-            </div>
-          </div>
-          {/* Open Source Work */}
-          <div className="open-source">
-            {" "}
-            <h3>OpenSource Work</h3>
-            <p>
-              Contributed to 50 Opensource <br />
-              project. Made my own project with <br />
-              200 GitHub stars
-            </p>
-            <span>Visit my GitHub Profile</span>
-          </div>
+          {" "}
+          <h3 className="h3-titulo">Work Experience</h3>
+          <h4 className="h4-titulo">roadmap.sh</h4>
+          <p>Solve all the frontend project </p>{" "}
+          <p className="visit">Visit my Profile</p>
+          <hr />
+          {/* Open Source Work */}{" "}
+          <h3 className="h3-titulo">OpenSource Work</h3>
+          <p>
+            Contributed to 50 Opensource <br />
+            project. Made my own project with <br />
+            200 GitHub stars
+          </p>
+          <p className="visit">Visit my GitHub Profile</p>
         </div>
         {/* Education */}
         <div className="col2-row3">
-          <h3>Education</h3>
+          <h3 className="h3-titulo">Education</h3>
           <p>
             Graduate with 3.l76 out of 4 <br />
             CGPA. Won Acme Hackaton. <br />
             Organized 30 sessions
           </p>
-          <span></span>
-          <span>Curses I took</span>
+
+          <p className="visit">Curses I took: </p>
           <ul>
             <li>Object Oriented Programming</li>
             <li>Data Structures and Algorithms</li>
