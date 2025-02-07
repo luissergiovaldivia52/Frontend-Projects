@@ -55,6 +55,20 @@
   flex-direction: column;
   border-top: 2px solid black;
 }
+.container p {
+  margin-left: 20px;
+}
+.container .h3-titulo {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.container hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 10px 0;
+}
 .container .column2,
 .container .column3 {
   display: flex;
@@ -75,22 +89,8 @@ dentro de este row lo llamamos column y centramos arriba al medio
 con alih-item , debera ocupar todo el heigh
 el paddin es para dearle un margen */
 }
-.container .column2 .col2-row1 .h3-titulo {
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-.container .column2 .col2-row1 p {
-  margin-left: 20px;
-}
 .container .column2 .col2-row1 .prueba {
   margin-bottom: 100px;
-}
-.container .column2 .col2-row1 hr {
-  border: none;
-  border-top: 2px solid black;
-  width: 100%;
-  margin: 10px 0;
 }
 .container .column2 .col2-row1 .product {
   display: flex;
@@ -107,24 +107,15 @@ el paddin es para dearle un margen */
   height: auto;
   border-right: 2px solid black;
 }
-.container .column2 .col2-row2 .work-experience {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  height: auto;
-  padding: 20px;
+.container .column2 .col2-row2 .h4-titulo {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
-.container .column2 .col2-row2 .work-experience .col2-row2-col1-row1,
-.container .column2 .col2-row2 .work-experience .col2-row2-col1-row2,
-.container .column2 .col2-row2 .work-experience .col2-row2-col1-row3,
-.container .column2 .col2-row2 .work-experience .col2-row2-col1-row4 {
-  display: flex;
-}
-.container .column2 .col2-row2 .work-experience .col2-row2-col1-row4 span {
+.container .column2 .col2-row2 .visit {
   color: blue;
-}
-.container .column2 .col2-row2 .open-source span {
-  color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .container .column2 .col2-row3 {
   display: flex;
@@ -132,6 +123,21 @@ el paddin es para dearle un margen */
   align-items: start;
   width: 100%;
   height: auto;
+}
+.container .column2 .col2-row3 .visit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .column2 .col2-row3 ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+.container .column2 .col2-row3 ul li::before {
+  content: "— ";
+  /* Guion medio con un espacio después */
+  color: black;
+  /* Color del guion */
 }
 .container .column3 {
   flex-direction: column;
