@@ -109,9 +109,11 @@
       }
 
       /*dividemos el row en dos
-dentro de este row lo llamamos column y centramos arriba al medio
-con alih-item , debera ocupar todo el heigh
-el paddin es para dearle un margen */
+        dentro de este row lo llamamos 
+        column y centramos arriba al medio
+        con alih-item , debera ocupar todo el heigh
+        el padding es para darle un margen */
+
       .product {
         display: flex;
         flex-direction: column;
@@ -172,10 +174,59 @@ el paddin es para dearle un margen */
   }
 
   .column3 {
-    flex-direction: column;
+    flex-direction: row;
+    position: relative;
 
-    align-items: center;
+    // align-items: center;
     border-top: 2px solid black;
+    h1 {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      transform: translate(-10%, -10%);
+    }
+    .cuadro1,
+    .cuadro2,
+    .cuadro3 {
+      width: 250px;
+      height: 180px;
+      // background-color: #f1f1f1;
+
+      border-radius: 20%;
+      border: 2px solid black;
+      .p-text {
+        //     margin-bottom: 20px;
+        padding: 15px;
+        line-height: 20px;
+      }
+
+      .p-john {
+        padding: 15px;
+        line-height: 20px;
+        color: #d3d3d3;
+      }
+    }
+    .cuadro1 {
+      position: absolute;
+      margin-left: 10px;
+      top: 50%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+    }
+    .cuadro2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .cuadro3 {
+      position: absolute;
+      margin-right: 30px;
+      top: 50%;
+      left: 85%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
 
