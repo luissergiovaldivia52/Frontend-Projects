@@ -85,9 +85,10 @@
   width: 100%;
   border-right: 2px solid black;
   /*dividemos el row en dos
-dentro de este row lo llamamos column y centramos arriba al medio
-con alih-item , debera ocupar todo el heigh
-el paddin es para dearle un margen */
+        dentro de este row lo llamamos 
+        column y centramos arriba al medio
+        con alih-item , debera ocupar todo el heigh
+        el padding es para darle un margen */
 }
 .container .column2 .col2-row1 .prueba {
   margin-bottom: 100px;
@@ -140,9 +141,56 @@ el paddin es para dearle un margen */
   /* Color del guion */
 }
 .container .column3 {
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  position: relative;
   border-top: 2px solid black;
+}
+.container .column3 h1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -10%);
+}
+.container .column3 .cuadro1,
+.container .column3 .cuadro2,
+.container .column3 .cuadro3 {
+  width: 250px;
+  height: 180px;
+  border-radius: 20%;
+  border: 2px solid black;
+}
+.container .column3 .cuadro1 .p-text,
+.container .column3 .cuadro2 .p-text,
+.container .column3 .cuadro3 .p-text {
+  padding: 15px;
+  line-height: 20px;
+}
+.container .column3 .cuadro1 .p-john,
+.container .column3 .cuadro2 .p-john,
+.container .column3 .cuadro3 .p-john {
+  padding: 15px;
+  line-height: 20px;
+  color: #d3d3d3;
+}
+.container .column3 .cuadro1 {
+  position: absolute;
+  margin-left: 10px;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.container .column3 .cuadro2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .column3 .cuadro3 {
+  position: absolute;
+  margin-right: 30px;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
 }
 .footer {
   display: flex;

@@ -65,12 +65,36 @@ export default function MainContent() {
       {/* Reviews from my Teachers */}
       <div className="column3">
         {" "}
-        <div>
-          <h1>Reviews from my Teachers</h1>
+        <h3 className="h3-titulo">Reviews from my Teachers</h3>
+        <div className="cuadro1">
+          <p className="p-text">
+            John dae was a brillant
+            <br />
+            student; always stood out <br />
+            with his assigments.
+          </p>
+          <p className="p-john">
+            John Doe <br /> Assistant Profesor
+          </p>
         </div>
-        <div>cuadro1</div>
-        <div>cuadro2</div>
-        <div>cuadro3</div>
+        <div className="cuadro2">
+          <p className="p-text">
+            John Doe was a brillant <br /> student; always stood out <br /> with
+            his assigments.{" "}
+          </p>
+          <p className="p-john">
+            John Doe <br /> Assistant Profesor
+          </p>
+        </div>
+        <div className="cuadro3">
+          <p className="p-text">
+            John Doe was a brillant <br /> student; always stood out <br /> with
+            his assigments.{" "}
+          </p>
+          <p className="p-john">
+            John Doe <br /> Assistant Profesor
+          </p>
+        </div>
       </div>
     </div>
   );
