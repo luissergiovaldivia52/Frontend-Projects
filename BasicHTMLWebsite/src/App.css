@@ -193,10 +193,12 @@
   transform: translate(-50%, -50%);
 }
 .footer {
-  display: flex;
-  justify-content: center;
-  width: 1000px;
-  height: 100px;
-  border-top: 2px solid black;
-  /*eliminar este border */
+  height: 200px;
+}
+.footer p {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #222;
+  font-weight: 600;
+  line-height: 240px;
+  margin-left: 40%;
 }
