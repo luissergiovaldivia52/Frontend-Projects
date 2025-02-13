@@ -8,3 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 [BasicHTMLWebsite](https://github.com/luissergiovaldivia52/Frontend-Projects/edit/main/BasicHTMLWebsite/README.md)
 
+https://roadmap.sh/projects/basic-html-website
