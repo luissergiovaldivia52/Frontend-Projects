@@ -61,3 +61,12 @@ After completing this project, you will have a good understanding of how to stru
 # Nombre de tu Proyecto
 
 Repository URL: https://github.com/luissergiovaldivia52/Frontend-Projects/tree/main/BasicHTMLWebsite
+
+## Changelog Component
+
+Create a changelog component for a website using HTML and CSS.
+
+In this proyect you are required to create a simple component for a website that display a changelog. A
+changelog is a log or record of all notable changes made to a project or software. It is often used to keep
+user informed about the latest updates and improvements.
+The goal this project is to teach you about positioning and layout in CSS. You will
