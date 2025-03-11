@@ -58,15 +58,36 @@ Again, make sure that your submission includes the following:
 
 After completing this project, you will have a good understanding of how to structure a website using HTML, basic SEO meta tags, HTML tags, forms etc. You can now move on to the next project where you will learn how to style this website using CSS.
 
-# Nombre de tu Proyecto
+## Nombre de tu Proyecto
 
 Repository URL: https://github.com/luissergiovaldivia52/Frontend-Projects/tree/main/BasicHTMLWebsite
 
-## Changelog Component
+## Personal Portafolio
 
-Create a changelog component for a website using HTML and CSS.
+> The Goal of this project is to teach you how to style a website using CSS. You will take the structure from
+> the previous HTML-only-proyect and apply various CSS techniques to enhance its appareance and
+> responsiveness.
 
-In this proyect you are required to create a simple component for a website that display a changelog. A
-changelog is a log or record of all notable changes made to a project or software. It is often used to keep
-user informed about the latest updates and improvements.
-The goal this project is to teach you about positioning and layout in CSS. You will
+In this project, you will styles the HTML website struture you created previously in a diferent project. The focus will be on learning how to use CSS to create responsive
+layouts, apply color and typography, and enhance the overall design of your website.
+
+Rough mockups of the website structure for mobile and desktop device are given below. Do not worry about the design details i.e. colors backgroups etc at this stage; we are not looking for a beautiful design, but a well-structured and responsive website. Just focus on making the layout same as the mockup and ensuring it looks good on diferent screen sizes.
+
+![pagina web](./portfolio-template-xdhki.png)
+
+### Submission Requierements:
+
+Your submission should include:
+
+- A fully styled, responsive website with the same structure as the previous project.
+- Consistent use of a chosen color shceme and typography.
+- Prosper use of CSS technique like Flexbox, media queries, and the box model.
+- A responsive navigation bar and well-styled contact from.
+
+### Bonus Points
+
+For Bonus Points, you can:
+
+- Use Google Fonts to enhance the typography of your website.
+- Look into [GitHub Pages](https://pages.github.com/) or [Cloudflare Pages](https://pages.cloudflare.com/) to host your website for free.
+- Add support for dark mode using CSS variables.
