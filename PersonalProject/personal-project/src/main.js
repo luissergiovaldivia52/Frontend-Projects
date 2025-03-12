@@ -1,10 +1,23 @@
 import "./style.css";
 
-document.querySelector("#app").innerHTML = `
-  <div>
+import NavBar from "./componets/Header/NavBar";
+import MainContent from "./componets/Main/MainContent";
+import Footer from "./componets/Footer/footer";
 
-  <div>
-  <p>Aqui va mi projecto</p>
-  </div>
+document.querySelector("#app").innerHTML = `
+  <div class="grid-container">
+  
+    <header>
+
+    ${NavBar()}
+    </header>
+    <main>
+    ${MainContent()}
+    </main>
+    <footer>  
+    ${Footer()}
+    </footer>
+
+
   </div>
 `;
