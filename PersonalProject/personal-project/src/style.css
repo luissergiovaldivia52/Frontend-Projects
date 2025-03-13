@@ -1,1 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* & Altura de la ventana del navegador */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-container {
+  width: 1000px;
+
+  height: auto;
+  border: 2px solid black;
+  /* Border del rectangulo */
+  background-color: white;
+  /*Color de fondo */
+}
+
+/* Header */
+/*Menu */
+.navbar {
+  height: 50px;
+  position: relative;
+}
+.navbar a {
+  color: #222;
+  font-size: 20px;
+  line-height: 50px;
+
+  padding: 20px 20px;
+}
+
+.navbar .div1 {
+  position: absolute;
+  left: 0;
+}
+
+.navbar .div2 {
+  position: absolute;
+  right: 0;
+}
+
+.navbar div {
+  margin: 0 auto;
+}
+
+/*titulo */
+
+.titulo {
+  position: relative;
+
+  height: 300px;
+}
+
+.titulo h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  margin: 0;
+  padding-bottom: 20px;
+
+  font-size: 50px;
+}
+
+.titulo p {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+
+  font-size: 20px;
+  color: #999;
+}
+
+/* MainContent */
+.container {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+}
+.container p {
+  margin-left: 20px;
+}
+.container .h3-titulo {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.container hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 10px 0;
+}
+.container .column2,
+.container .column3 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+.container .column2 {
+  height: auto;
+}
+.container .column2 .col2-row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  border-right: 2px solid black;
+  /*dividemos el row en dos
+        dentro de este row lo llamamos 
+        column y centramos arriba al medio
+        con alih-item , debera ocupar todo el heigh
+        el padding es para darle un margen */
+}
+.container .column2 .col2-row1 .prueba {
+  margin-bottom: 100px;
+}
+.container .column2 .col2-row1 .product {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.container .column2 .col2-row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  height: auto;
+  border-right: 2px solid black;
+}
+.container .column2 .col2-row2 .h4-titulo {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.container .column2 .col2-row2 .visit {
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .column2 .col2-row3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  height: auto;
+}
+.container .column2 .col2-row3 .visit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .column2 .col2-row3 ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+.container .column2 .col2-row3 ul li::before {
+  content: "— ";
+  /* Guion medio con un espacio después */
+  color: black;
+  /* Color del guion */
+}
+.container .column3 {
+  flex-direction: row;
+  position: relative;
+  border-top: 2px solid black;
+}
+.container .column3 h1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-10%, -10%);
+}
+.container .column3 .cuadro1,
+.container .column3 .cuadro2,
+.container .column3 .cuadro3 {
+  width: 250px;
+  height: 180px;
+  border-radius: 20%;
+  border: 2px solid black;
+}
+.container .column3 .cuadro1 .p-text,
+.container .column3 .cuadro2 .p-text,
+.container .column3 .cuadro3 .p-text {
+  padding: 15px;
+  line-height: 20px;
+}
+.container .column3 .cuadro1 .p-john,
+.container .column3 .cuadro2 .p-john,
+.container .column3 .cuadro3 .p-john {
+  padding: 15px;
+  line-height: 20px;
+  color: #d3d3d3;
+}
+.container .column3 .cuadro1 {
+  position: absolute;
+  margin-left: 10px;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+.container .column3 .cuadro2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .column3 .cuadro3 {
+  position: absolute;
+  margin-right: 30px;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  height: 200px;
+}
+.footer p {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #222;
+  font-weight: 600;
+  line-height: 240px;
+  margin-left: 40%;
+}
